@@ -1,0 +1,31 @@
+.c-header{
+    background-color: black;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    align-content: center;
+    
+    &__link{
+        color: white;
+        font-size:1.3rem;
+        text-decoration: none;  
+        &.active{
+            color: #ffe600;
+        }   
+    }
+
+    .c-profile{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        align-content: center;
+        color: white;
+        img{
+            max-width: 40px;
+            margin-right: 5px;
+        }
+    }
+    
+    
+}

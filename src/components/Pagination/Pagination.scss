@@ -1,0 +1,19 @@
+.c-pagination{
+    margin: 10px auto;
+    max-width:200px;
+    padding:30px;
+    font-size:1.5rem;
+    color:black;
+
+    &__button{
+        border: none;
+        font: inherit;
+        cursor: pointer;
+        outline: inherit;
+        background-color:#ffe600;
+        color: black;
+        padding:10px;
+        margin: 10px;
+
+    }
+}
